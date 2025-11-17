@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Área de Salud</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+
+<header><h1>Área de Salud</h1></header>
+
+<section>
+    <h2>1. Presión arterial</h2>
+    Sistólica: <input id="sis"><br>
+    Diastólica: <input id="dias"><br>
+    <button onclick="presion()">Evaluar</button>
+    <p id="r1"></p>
+</section>
+
+<section>
+    <h2>2. Temperaturas</h2>
+    Número de pacientes: <input id="pacientes"><br>
+    <button onclick="temperaturas()">Registrar</button>
+    <p id="r2"></p>
+</section>
+
+<section>
+    <h2>3. Fiebre</h2>
+    <button onclick="fiebre()">Iniciar</button>
+    <p id="r3"></p>
+</section>
+
+<section>
+    <h2>4. TRIAGE</h2>
+    Código 1-4: <input id="codigoT"><br>
+    <button onclick="triage()">Evaluar</button>
+    <p id="r4"></p>
+</section>
+
+<section>
+    <h2>5. Saturación</h2>
+    <button onclick="saturacion()">Registrar</button>
+    <p id="r5"></p>
+</section>
+
+</body>
+</html>

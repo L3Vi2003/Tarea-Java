@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Astronomía</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+<header><h1>Área de Astronomía</h1></header>
+
+<section>
+    <h2>1. Brillo estelar</h2>
+    Magnitud: <input id="mag"><br>
+    <button onclick="brillo()">Clasificar</button>
+    <p id="s1"></p>
+</section>
+
+<section>
+    <h2>2. Distancias de planetas</h2>
+    Cantidad: <input id="planetas"><br>
+    <button onclick="distancias()">Registrar</button>
+    <p id="s2"></p>
+</section>
+
+<section>
+    <h2>3. Cráteres lunares</h2>
+    <button onclick="crateres()">Iniciar</button>
+    <p id="s3"></p>
+</section>
+
+<section>
+    <h2>4. Cuerpo celeste</h2>
+    Código 1–5: <input id="cuerpo"><br>
+    <button onclick="celeste()">Identificar</button>
+    <p id="s4"></p>
+</section>
+
+<section>
+    <h2>5. Niveles de luz</h2>
+    <button onclick="lux()">Registrar</button>
+    <p id="s5"></p>
+</section>
+
+</body>
+</html>

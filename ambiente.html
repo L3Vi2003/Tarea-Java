@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Medio Ambiente</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+<header><h1>Área de Medio Ambiente</h1></header>
+
+<section>
+    <h2>1. AQI</h2>
+    AQI: <input id="aqi"><br>
+    <button onclick="calidadAire()">Clasificar</button>
+    <p id="a1"></p>
+</section>
+
+<section>
+    <h2>2. Ruido ambiental</h2>
+    Cantidad: <input id="rmed"><br>
+    <button onclick="ruido()">Registrar</button>
+    <p id="a2"></p>
+</section>
+
+<section>
+    <h2>3. Focos de calor</h2>
+    <button onclick="focos()">Iniciar</button>
+    <p id="a3"></p>
+</section>
+
+<section>
+    <h2>4. Tipo de residuo</h2>
+    Código 1–4: <input id="residuo"><br>
+    <button onclick="residuoF()">Mostrar</button>
+    <p id="a4"></p>
+</section>
+
+<section>
+    <h2>5. Monitoreo del río</h2>
+    <button onclick="rio()">Registrar</button>
+    <p id="a5"></p>
+</section>
+
+</body>
+</html>
